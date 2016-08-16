@@ -1,0 +1,12 @@
+[user]
+	email = gaurav.grover@graphitesoftware.com
+	name = Gaurav
+[color]
+	ui = auto
+[alias]
+	br = branch -vv
+	rl = remote -vv
+	log-pretty = log --pretty=format:'%C(yellow)%h %Cred%ad %Cblue%an%Cgreen%d %Creset%s' --date=short
+	co = checkout
+	ci = commit
+	st = status
